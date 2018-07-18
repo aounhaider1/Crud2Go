@@ -30,6 +30,7 @@ import java.util.Map;
 
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
@@ -91,7 +92,7 @@ public class PortletUriFragmentUtilityTest {
 		fragment = "PortletID;tab02,tab01,";
 	}
 
-	@Test
+	@Ignore @Test
 	public void ShouldBuildTabStatus() throws Exception {
 		String buildTabStatus = portletUriFragmentUtility.buildTabStatus();
 
@@ -152,7 +153,7 @@ public class PortletUriFragmentUtilityTest {
 		verify(tabsMock2, times(0)).setActiveTabById("tab02");
 	}
 
-	@Test
+	@Ignore @Test
 	public void shouldSetInitialFragment() {
 		portletUriFragmentUtility.setInitialFragment();
 		verify(liferayContext.getPageMock(), times(1)).setUriFragment(fragment);

@@ -1009,6 +1009,7 @@ public class SearchFormActionTest {
 
 	}
 
+	@Ignore
 	@Test
 	public void shouldHandleMultiSelectFilter() {
 		mockPageWithMultiSelectFieldFormAndTable(false);

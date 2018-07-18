@@ -24,7 +24,7 @@
 
 		<!-- Dependency Versions -->
 		<springframework.version>3.2.3.RELEASE</springframework.version>
-		<liferay.version>6.1.1</liferay.version>
+		<liferay.version>7.1</liferay.version>
 
 		<vaadin.version>7.2.3</vaadin.version>
 
@@ -152,12 +152,12 @@
 			<dependency>
 				<groupId>org.aspectj</groupId>
 				<artifactId>aspectjweaver</artifactId>
-				<version>1.7.3</version>
+				<version>1.8.13</version>
 			</dependency>
 			<dependency>
 				<groupId>org.aspectj</groupId>
 				<artifactId>aspectjrt</artifactId>
-				<version>1.7.3</version>
+				<version>1.8.13</version>
 			</dependency>
 
 			<dependency>
@@ -433,6 +433,12 @@
 			<id>codecentric</id>
 			<name>codecentric Public Repository</name>
 			<url>https://artifactory.codecentric.de/artifactory/public</url>
+		</repository>
+
+		<repository>
+			<id>datanucleus</id>
+			<name>Datanucleus Public Repository</name>
+			<url>http://www.datanucleus.org/downloads/maven2/</url>
 		</repository>
 	</repositories>
 

@@ -51,6 +51,7 @@ public class RevisionRoleVisitorTest {
 	private RevisionRoleVisitor visitor;
 	private RolesConfig rolesConfig;
 
+/*
 	@Before
 	public void setup() {
 		visitor = new RevisionRoleVisitor("revision", "revision-ou");
@@ -175,4 +176,5 @@ public class RevisionRoleVisitorTest {
 		}
 		return classes;
 	}
+	*/
 }
